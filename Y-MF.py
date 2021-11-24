@@ -1,10 +1,10 @@
 #################################################################
-#         		ATHOUR : MR.RISKY			#
-#  		     WHATSAPP : 6283143565470			#
-#		  GITHUB : github.com/Dumai-991			#
+#         		ATHOUR : BINTANG-XD			#
+#  		     YT : BINTANG XD			        #
+#		  GITHUB : github.com/bot-85			#
 #	       FACEBOOK : m.facebook.com/llovexnxx		#
 #################################################################
-#By Mr.Risky
+#By BINTANG-XD
 import os
 import sys
 import time
@@ -107,13 +107,12 @@ q="\033[00m"
 war = ("[+]")
 inp = ("[-]")
 bulat = ("[#]")
-logo = (f"""{C}       ____  ___      __  _______  ______
-      / /  |/  /     /  |/  / __ )/ ____/JAYA MUKTI - MULTI BRUSH FAST
- __  / / /|_/ /_____/ /|_/ / __  / /_
-/ /_/ / /  / /_____/ /  / / /_/ / __/
-\____/_/  /_/     /_/  /_/_____/_/{Q}
-[++] Athour   : Mr.Risky
-[++] WhatsApp : 6283143565470""")
+logo = ''' __  __        __   __   ____
+  \ \/ / ___   /  |/  /  / __/ ®
+   \  / /___/ / /|_/ /  / _/     
+   /_/       /_/  /_/  /_/
+[++] Athour   : BINTANG-XD
+[++] YT : BINTANG XD""")
 loop = 0
 ok = []
 cp = []
