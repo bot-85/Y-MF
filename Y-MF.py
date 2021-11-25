@@ -88,10 +88,10 @@ def tod():
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;91m   ___           __   __   ____
- \033[0;91m  / _ )  ___    /  |/  /  / __/ © \x1b[1;92m|| BY : Bintang-XD
- \033[0;97m / _  / /___/  / /|_/ /  / _/     \x1b[1;93m|| FB : Bintang Tzy
- \033[0;94m/___ /        /_/  /_/  /_/  \x1b[1;92mv6.5 \033[0m|| YT : BINTANG XD'''
+logo = ''' \033[0;94m   ___          __  __   ___    ____
+ \033[0;93m  / _ )  ___   /  |/  / / _ )  / __/ © \x1b[1;95m|| BY : Bintang-XD
+ \033[0;92m / _  / /___/ / /|_/ / / _  / / _/     \x1b[1;96m|| FB : Bintang Tzy
+ \033[0;91m/___ /       /_/  /_/ /___ / /_/  \x1b[1;92mv7.1 \033[0m|| YT : BINTANG XD'''
 lo_ngentod = '1714009362122228'
 # crack selesai
 def hasil(ok,cp):
@@ -100,7 +100,7 @@ def hasil(ok,cp):
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
-        print '\n\n [%s!%s] opshh kamu tidak mendapatkan hasil :('%(M,N);exit()
+        print '\n\n [%s!%s] ga dapet hasil wkwkwk :('%(M,N);exit()
 
 #masuk token
 def yayanxd():
@@ -521,8 +521,8 @@ def yo_ndak_tau_ko_tanya_saia():
     if _asu_ == '':
         print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
     elif _asu_ in['Y','y']:
-        jalan('\n %s *%s anda akan di arakan ke situs web setelah di arahkan ke situs web.\n  %s*%s klik ikon %sMY USER AGENT%s lalu copy semua user agent anda...'%(O,N,O,N,H,N));time.sleep(2);os.system('xdg-open https://www.yayanxd.my.id/server')
-        _agen_ = raw_input(' [%s?%s] masukan user agent hp anda :%s '%(O,N,H))
+        jalan('\n %s *.%s sihlahkan anda pergi ke google crhome/google biasa.\n  %s*.%s lalu cari  %sMY USER AGENT%s lalu copy user agent anda...'%(O,N,O,N,H,N));time.sleep(2)
+        _agen_ = raw_input(' [%s?%s] masukan user agent hp anda :%s '%(O,N,H)
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil menggunakan user agent hp anda...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
